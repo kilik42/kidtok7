@@ -1,5 +1,5 @@
 .video{
-    border: 1px solid black;
+    border: 5px solid red;
     border-radius: 5px;
     /* padding: 10px;
     margin: 10px; */
@@ -7,4 +7,5 @@
     height: 100%;
     scroll-snap-align: start;
     position: relative;
+    background-color: white;
 }
