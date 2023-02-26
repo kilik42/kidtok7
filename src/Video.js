@@ -1,6 +1,7 @@
 import React ,{useRef, useState} from 'react'
 import './Video.css'
 import ReactPlayer from 'react-player'
+import VideoFooter from './VideoFooter';
 function Video() {
     const [playing, setPlaying] = React.useState(false);
     const videoref = React.useRef(null);
@@ -27,6 +28,7 @@ function Video() {
         ref = {videoref}
         />
      {/* videofooter */}
+     <VideoFooter/>
         {/* video sidebar */}
 
     </div>
