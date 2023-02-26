@@ -8,7 +8,15 @@ function App() {
 
       {/* app container */}
         {/* videos */}
-        
+      <div className="app__videos">
+        <h1>videos</h1>
+        <Video/>
+        <Video/>
+        <Video/>
+        <Video/>
+      
+      </div>
+
       
     </div>
   );
