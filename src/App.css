@@ -1,11 +1,17 @@
 .app__videos{
+    position: relative;
+    height: 100vh;
+    overflow:scroll;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    width: 80%;
+    max-width: 500px; scroll-snap-type: y mandatory;
+
 }
 html{
     scroll-snap-type: y mandatory;
-    
+
 }
