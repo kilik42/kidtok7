@@ -2,6 +2,7 @@ import React ,{useRef, useState} from 'react'
 import './Video.css'
 import ReactPlayer from 'react-player'
 import VideoFooter from './VideoFooter';
+import { Player } from 'video-react';
 function Video() {
     const [playing, setPlaying] = React.useState(false);
     const videoref = React.useRef(null);
@@ -18,7 +19,7 @@ function Video() {
     <div className='video'>
      <ReactPlayer
         className='video__player'
-        url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+        url='https://youtu.be/YSU406hCAYo'
         width='100%'
         height='100%'
         loop
@@ -27,6 +28,9 @@ function Video() {
         onClick={onVideoPress}
         ref = {videoref}
         />
+        {/* <Player ref={(player) => { this.player = player }}>
+  <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
+</Player> */}
      {/* videofooter */}
      <VideoFooter/>
         {/* video sidebar */}
