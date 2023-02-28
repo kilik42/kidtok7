@@ -1,0 +1,20 @@
+.videoSidebar{
+ position: absolute;
+ top: 50%;
+    right: 10px;
+    color: white;
+
+}
+
+.videoSidebar__button{
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    text-align: center;
+
+}
+
+.videoSidebar__button:hover{
+    /* background-color: #f9f9f9; */
+    cursor: pointer;
+    /* transition: linear 0.2s; */
+}

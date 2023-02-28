@@ -3,6 +3,7 @@ import './Video.css'
 import ReactPlayer from 'react-player'
 import VideoFooter from './VideoFooter';
 import { Player } from 'video-react';
+import VideoSidebar from './VideoSidebar';
 function Video() {
     const [playing, setPlaying] = React.useState(false);
     const videoref = React.useRef(null);
@@ -32,9 +33,15 @@ function Video() {
   <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
 </Player> */}
      {/* videofooter */}
-     <VideoFooter/>
-        {/* video sidebar */}
-
+     <VideoFooter 
+        channel ="rafequzi"
+        description="This is a test description"
+          song="This is a test song"
+              />
+       
+    <VideoSidebar
+    
+    />
     </div>
   )
 }
