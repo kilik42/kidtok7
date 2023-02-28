@@ -1,8 +1,10 @@
 
+import { useState } from 'react';
 import './App.css';
 import Video from './Video';
 
 function App() {
+  const [videos, setVideos] = useState([]);
   return (
     <div className="app">
       {/* <h1>lets build a tik tok clone</h1> */}
