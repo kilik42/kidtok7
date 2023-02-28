@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 firebase.js
+REACT_APP_apiKey = "AIzaSyArJ7i_CWk5PVLhikeczgxybOSPBHu-meQ"
 # testing
 /coverage
 
