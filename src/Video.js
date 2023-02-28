@@ -4,7 +4,17 @@ import ReactPlayer from 'react-player'
 import VideoFooter from './VideoFooter';
 import { Player } from 'video-react';
 import VideoSidebar from './VideoSidebar';
-function Video() {
+function Video(
+  {
+    url,
+    channel,
+    description,
+    song,
+    likes,
+    messages,
+    shares
+  }
+) {
     const [playing, setPlaying] = React.useState(false);
     const videoref = React.useRef(null);
 
@@ -34,13 +44,16 @@ function Video() {
 </Player> */}
      {/* videofooter */}
      <VideoFooter 
-        channel ="rafequzi"
-        description="This is a test description"
-          song="This is a test song"
+        channel={channel}
+        description={description}
+        song={song}
               />
        
     <VideoSidebar
-    
+        likes={likes}
+        shares={shares}
+        messages={messages}
+
     />
     </div>
   )

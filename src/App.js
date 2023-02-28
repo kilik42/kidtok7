@@ -11,10 +11,41 @@ function App() {
         {/* videos */}
       <div className="app__videos">
         <h1>videos</h1>
-        <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
+        <Video
+        url="https://youtu.be/YSU406hCAYo"
+        channel="saurabh"
+        description="this is a test"
+        song="this is a song"
+        likes={111}
+        messages={222}
+        shares={333}
+        />
+        <Video
+        url="https://youtu.be/YSU406hCAYo"
+        channel="saurabh"
+        description="this is a test"
+        song="this is a song"
+        likes={111}
+
+        messages={222}
+        />
+        <Video
+        url="https://youtu.be/YSU406hCAYo"
+        channel="saurabh"
+        description="this is a test"
+        song="this is a song"
+        likes={111}
+        messages={222}
+        />
+        <Video
+        url="https://youtu.be/YSU406hCAYo"
+        channel="saurabh"
+        description="this is a test"
+        song="this is a song"
+        likes={111}
+        messages={222}
+        
+        />
       
       </div>
 
