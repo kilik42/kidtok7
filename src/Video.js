@@ -30,7 +30,7 @@ function Video(
     <div className='video'>
      <ReactPlayer
         className='video__player'
-        url='https://youtu.be/YSU406hCAYo'
+        url={url}
         width='100%'
         height='100%'
         loop
